@@ -9,5 +9,11 @@ pButton.addEventListener("click", (e) =>{
         if (d > 0){
         let x1 = (-b - Math.sqrt(d))/(2 * a)
         let x2 = (-b + Math.sqrt(d))/(2 * a)
-        alert("D = " + d + "x1 = " + x1 + "x2 = " + x2)}else {alert("Нет решений(D < 0)")}}
+        alert("D = " + d + ", x1 = " + x1 + ", x2 = " + x2)}else {alert("Нет решений(D < 0)")}}else if (a!=0 && b = 0 && c!=0){
+            if(c<0){
+                let x1 = Math.sqrt(-(c/a))
+                let x2 = -x1
+                alert(", x1 = " + x1 + ", x2 = " + x2)}else {alert("Нет решений(C > 0)")}
+            }
+        }
 })
