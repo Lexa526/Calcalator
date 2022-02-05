@@ -23,11 +23,11 @@ pButton.addEventListener("click", (e) =>{
         }else {alert ("Нет решений(a > 0)")}}
     if(b!=0 && c!=0){                
         let d = b**2 -4 * a * c 
-        if(d!=0){
+        if(d > 0){
         let x1 = (-b - Math.sqrt(d))/(2 * a)
         let x2 = (-b + Math.sqrt(d))/(2 * a)
-        alert("D = " + d + ", x1 = " + x1.toFixed(3) + ", x2 = " + x2.toFixed(3))}else if (D = 0){
-            let x1 = -b /(2 * a)
+        alert("D = " + d + ", x1 = " + x1.toFixed(3) + ", x2 = " + x2.toFixed(3))}else if (d == 0){
+        let x1 = -b /(2 * a)
             alert("D = " + d + ", x1 = " + x1.toFixed(3))
         }else{alert("Нет решений (D < 0)")}}}else {alert("Нет решений")} 
 })
