@@ -23,5 +23,5 @@ pButton.addEventListener("click", (e) =>{
                 let x1 = Math.sqrt(-a)
                 let x2 = -x
                 alert("x1 = " + x1 + ", x2 = " + x2)}
-            else {alert("Нет решений")
+            else {alert("Нет решений")} 
 )}
