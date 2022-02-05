@@ -14,14 +14,14 @@ pButton.addEventListener("click", (e) =>{
             if(c<0){
                 let x1 = Math.sqrt(-(c/a))
                 let x2 = -x1
-                alert("x1 = " + x1 + ", x2 = " + x2)}else {alert("Нет решений(C > 0)")}
-            }else if(a!=0 && b!=0 && c = 0){
+                alert("x1 = " + x1 + ", x2 = " + x2)}else {alert("Нет решений(C > 0)")}}
+            else if(a!=0 && b!=0 && c = 0){
                 let x1 = 0
                 let x2 = -(b/a)
-                alert("x1 = " + x1 + ", x2 = " + x2)
-            }else if(a < 0 && b = 0 & & c = 0){
+                alert("x1 = " + x1 + ", x2 = " + x2)}
+            else if(a < 0 && b = 0 & & c = 0){
                 let x1 = Math.sqrt(-a)
                 let x2 = -x
-                alert("x1 = " + x1 + ", x2 = " + x2)
-            }else {alert("Нет решений")}
+                alert("x1 = " + x1 + ", x2 = " + x2)}
+            else {alert("Нет решений")
 })
