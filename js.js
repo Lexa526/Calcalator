@@ -24,4 +24,4 @@ pButton.addEventListener("click", (e) =>{
                 let x2 = -x
                 alert("x1 = " + x1 + ", x2 = " + x2)}
             else {alert("Нет решений")
-})
+)}
